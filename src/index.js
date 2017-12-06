@@ -3,12 +3,14 @@ import _ from 'lodash';
 
 function component() {
     var element = document.createElement('div');
-
-    // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的
+    var button = document.createElement('button');
+    var br = document.createElement('br');
+    button.innerHTML = 'Click me and look at the console!';
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     // element.onclick = Print.bind(null, 'Hello webpack!');
 
+    print();
+
     return element;
 }
-
 document.body.appendChild(component());
