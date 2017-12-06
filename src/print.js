@@ -1,4 +1,7 @@
-export default function printMe() {
-    // console.error('I get called from 2333 print.js!');
-    console.log('Updating print.js...0011');
-}
+console.log(
+    'The print.js module has loaded! See the network tab in dev tools...'
+);
+
+export default () => {
+    console.log('Button Clicked: Here\'s "some text"!');
+};
