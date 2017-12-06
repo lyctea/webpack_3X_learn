@@ -1,11 +1,11 @@
 {
   "name": "webpack3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,9 +17,19 @@
     "css-loader": "^0.28.7",
     "csv-loader": "^2.1.1",
     "file-loader": "^1.1.5",
+    "lodash": "^4.17.4",
     "style-loader": "^0.19.0",
     "webpack": "^3.10.0",
     "webpack-bundle-analyzer": "^2.9.1",
     "xml-loader": "^1.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyctea/webpack_3X_learn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyctea/webpack_3X_learn/issues"
+  },
+  "homepage": "https://github.com/lyctea/webpack_3X_learn#readme",
+  "description": ""
 }
