@@ -4,6 +4,7 @@ async function getComponent() {
 
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
+    element.appendChild(btn);
     return element;
 }
 
